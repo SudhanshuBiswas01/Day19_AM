@@ -59,3 +59,23 @@ if __name__ == "__main__":
     B = [12, 1, 3, 1, 1, 2, 3, 4, 5, 3, 4]
 
     two_sample_t_test(A, B)
+
+
+
+
+
+
+## Sample Output:
+# =============================================
+#          Two-Sample T-Test Results
+# =============================================
+# Sample 1 : Mean = 25.1429, Var = 290.571
+# Sample 2 : Mean = 3.0000, Var = 2.0000
+# t-statistic         : 2.7748
+# Degrees of Freedom  : 6.00
+# p-value             : 0.0328
+# Significance Level  : 0.05
+# ---------------------------------------------
+# Decision  : Reject H0
+# Conclusion: The two samples are significantly different.
+# =============================================
