@@ -18,3 +18,8 @@ if __name__ == "__main__":
 
     odd_only = remove_evens(flat)
     print("After removing evens :", odd_only)
+
+# Output:
+# Original nested list : [[1, 2, 3], [4, 5, 6], [7, 8, 9, 10]]
+# After flattening     : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# After removing evens : [1, 3, 5, 7, 9]    
